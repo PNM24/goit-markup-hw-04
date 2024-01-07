@@ -34,6 +34,9 @@
 
 .top-head {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    width: 1440px;
+    flex-shrink: 0;
 }
 
 .top-line {
@@ -144,6 +147,15 @@ body {
     color: #404bbf;
 }
 
+.hero-img{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+
+
 .first {
     color: var(--dark-blue);
     background-color: var(--dark-blue);
@@ -158,10 +170,22 @@ body {
     color: #ffffff;
 }
 
+.antenna {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
 .section-title {
 
     max-width: 496px;
     margin: auto;
+    padding-bottom: 48px;
 }
 
 .btn {
@@ -286,6 +310,7 @@ body {
 .first-row {
     padding-top: 120px;
     padding-bottom: 120px;
+
 }
 
 .hidden-title {
@@ -300,6 +325,7 @@ body {
 .first-row-list {
     display: flex;
     gap: 24px;
+    padding-left: 0;
 }
 
 
@@ -343,6 +369,7 @@ body {
     border-top-right-radius: 0px;
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .first-name {
