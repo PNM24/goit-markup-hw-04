@@ -282,6 +282,7 @@ body {
     line-height: 1.5;
     color: var(--light-color);
     letter-spacing: 0.02em;
+    margin-bottom: 16px;
 }
 
 .custom-class {
@@ -442,8 +443,8 @@ body {
     font-size: 36px;
     line-height: 1.11;
     color: var(--dark-blue);
-    margin-bottom: 72px;
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .custom-class{
@@ -466,6 +467,7 @@ body {
 
 .icon-class{
     fill: currentColor;
+    fill: #f4f4fd;
 }
 
 .list-costumers{
