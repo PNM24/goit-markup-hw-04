@@ -154,15 +154,17 @@ body {
 }
 
 .contact:focus {
-    color: #404bbf;
+    color: #000433;
 }
 
-.hero-imag{
-    background-image: linear-gradient (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero.jpg);
+.hero-imag {
     max-width: 1440px;
+    background-color: var(--navy-blue);
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url("../images/hero.jpg");
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
+    background-position: center;
+    margin: 0 auto;
     }
 
 
@@ -602,14 +604,13 @@ body {
 }
 
 .social-media-div-title{
-    margin-bottom: 16px;
+    color: var(--WHITE, #FFF);
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--brand-color);
+    margin-bottom: 16px;
 }
 
 .ul-div{
