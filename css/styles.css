@@ -157,7 +157,7 @@ body {
     color: #000433;
 }
 
-.hero-imag {
+.heroimag {
     max-width: 1440px;
     background-color: var(--navy-blue);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
